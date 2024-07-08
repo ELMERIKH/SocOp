@@ -1,0 +1,305 @@
+*, :before, :after {
+  transition: none !important;
+}
+   
+ 
+.el-message-box,
+.el-dialog,
+.el-card,
+.el-checkbox,
+.el-radio,
+.el-notification,
+.el-select-dropdown,
+.el-autocomplete-suggestion,
+.el-autocomplete-suggestion__wrap,
+.el-alert,
+.el-button,
+.el-input input,
+[contenteditable='true'],
+.el-tabs--card > .el-tabs__header .el-tabs__nav {
+  border-radius: 0 !important;
+}
+
+.el-select-dropdown {
+  max-width: 800px;
+}
+
+.view-only.el-form-item--mini .el-form-item__content {
+  line-height: 1.3;
+}
+
+.view-only.el-form-item--mini .el-form-item__content label {
+  padding-top: 5px;
+}
+
+.el-input.is-disabled .el-input__inner {
+  color: inherit;
+  border: 0;
+  padding: 0;
+  font-size: 14px;
+  background-color: inherit;
+  cursor: default !important;
+}
+
+.el-input.is-disabled .el-input__suffix {
+  display: none;
+}
+
+.el-input.is-disabled + label {
+  padding-top: 0 !important;
+}
+
+//
+// Select
+//
+
+.el-select-wide {
+  width: 100%;
+}
+
+//
+// Label
+//
+
+label.mini, 
+.elastalert-timepicker + label,
+.el-button + label,
+.el-select + label,
+.el-form-item__content > label {
+  display: block;
+  color: #86898f;
+  line-height: 1.3;
+  font-size: 12px;
+  padding-top: 7px;
+  text-indent: 2px;
+  text-align: left;
+
+  .el-button--text {
+    padding: 0;
+  }
+}
+
+.el-form--label-top .el-form-item__label {
+  padding: 0;
+  font-weight: bold;
+}
+
+//
+// Notification
+//
+
+.el-notification {
+  width: auto;
+}
+
+.el-notification__content {
+  width: 500px;
+}
+
+//
+// Input
+//
+
+.el-input--large {
+  font-size: 16px;
+}
+
+.el-input__inner[type='number'] {
+  width: 110px;
+  text-align: center;
+}
+
+.el-input-wide {
+  width: 100%;
+}
+
+.el-input-wide input.el-input__inner {
+  width: 100%;
+}
+
+//
+// Alert
+//
+
+.el-alert {
+  margin-bottom: 10px;
+}
+
+.el-alert .el-alert__description {
+  margin-top: 0;
+  font-size: 13px;
+}
+
+.el-alert__title {
+  line-height: 1.3;
+}
+
+.el-alert__description {
+  line-height: 1.3;
+}
+
+//
+// Dialog
+//
+
+.el-dialog__body {
+  padding-top: 0;
+}
+
+.el-alert--error .el-alert__description {
+  white-space: pre-wrap;
+}
+
+.el-alert-loading {
+  padding: 8px;
+}
+
+.el-alert-loading .el-icon-loading {
+  font-size: 20px;
+  position: absolute;
+  left: 6px;
+  margin-top: 1px;
+  top: 9px;
+}
+
+.el-alert-loading .el-alert__content {
+  margin-left: 15px;
+  width: 100%;
+  padding-right: 3px;
+  line-height: 21px;
+}
+
+.el-alert-loading .el-button {
+  position: absolute;
+  top: 14px;
+  right: 10px;
+}
+
+.el-dialog__headerbtn .el-dialog__close {
+  font-size: 20px;
+}
+
+.el-dialog__headerbtn {
+  z-index: 9;
+}
+
+//
+// Menu
+//
+
+.el-menu-item {
+  line-height: 36px;
+  height: 36px;
+}
+
+//
+// Tag
+//
+
+.el-row > .el-tag {
+  margin: 0 5px 5px 0;
+}
+
+h1 .el-tag {
+  position: relative;
+  top: -3px;
+}
+
+//
+// Form item
+//
+
+.el-form-item-list {
+  margin-bottom: 5px !important;
+}
+
+.el-form-item-list .el-form-item__error {
+  position: static;
+}
+
+//
+// Card
+//
+
+.el-card.tight .el-card__body {
+  padding: 0;
+}
+
+.is-never-shadow .el-card__header {
+  padding: 9px 10px;
+}
+
+.is-never-shadow .el-card__body {
+  padding: 10px;
+}
+
+.is-never-shadow .el-card h5 {
+  margin-bottom: 10px;
+  margin-top: 20px;
+  font-size: 14px;
+  color: #666;
+  border-bottom: 1px solid #ebeef5;
+}
+
+//
+// Buttons
+//
+
+.el-row > span + .el-button,
+.el-row a + a,
+.el-row a + .el-button,
+.el-row .el-button + span,
+.el-row .el-button + a {
+  margin-left: 10px;
+}
+
+.el-card__header .el-button--text {
+  padding: 0;
+}
+
+.el-button .el-icon-arrow-up,
+.el-button .el-icon-arrow-down {
+  position: relative;
+  top: 1px;
+}
+
+//
+// Collapse
+//
+
+.el-collapse-item__header {
+  font-size: 16px;
+}
+
+.el-collapse-item .el-form-item:last-child {
+  margin-bottom: 0;
+}
+
+//
+// Tabs
+//
+
+.el-tabs--border-card.border-card-plain {
+  box-shadow: none;
+}
+
+.el-tabs-padded .el-tabs__content {
+  padding: 10px 20px;
+}
+
+//
+// Main
+//
+
+.el-main {
+  position: relative;
+}
+
+//
+// Radio/Checkbox
+//
+
+.el-radio,
+.el-checkbox {
+  margin-right: 0;
+}
