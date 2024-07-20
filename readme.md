@@ -3,7 +3,7 @@
 Greetings
 ----------
 
-SocOp is a automated Opensource Soc installation 
+SocOp is an automated Opensource Soc Stack installation 
 
 will make a guide soon !
 
