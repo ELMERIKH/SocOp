@@ -6,7 +6,7 @@ Greetings
 
 SocOp is an automated Opensource Soc Stack installation 
 
-guide : [PFE-Rapport -Khafif-Moncef-eng (3).pdf](https://github.com/user-attachments/files/17270111/PFE-Rapport.-Khafif-Moncef-eng.3.pdf)
+guide : [PFE-Rapport.pdf](https://github.com/user-attachments/files/17270111/PFE-Rapport.-Khafif-Moncef-eng.3.pdf)
 
 
 get started :
